@@ -7,29 +7,39 @@
   <title>qwerty | Music for Everytime</title>
   <link rel="stylesheet" href="bundle/index.css" />
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" />
+  <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/estebanborai/fcc-product-landing-page/master/assets/favicon.png"
+  />
 </head>
 <body>
   <header id="header">
-    <img src="" id="header-img" />
+    <img src="https://raw.githubusercontent.com/estebanborai/fcc-product-landing-page/master/assets/img/logo.png" id="header-img" />
     <nav id="nav-bar">
       <ul>
         <li>
           <a href="#home" class="nav-link">Home</a>
         </li>
         <li>
-          <a href="#home" class="nav-link">About</a>
+          <a href="#about" class="nav-link">About</a>
         </li>
         <li>
-          <a href="#home" class="nav-link">Pricing</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
         </li>
       </ul>
     </nav>
   </header>
   <main>
     <section id="home">
-      <h2>Music for Everytime</h2>
-      <p>Listen to the songs you love. Anywhere. Anytime</p>
-      <button>Get it now</button>
+      <video id="video" autoplay loop preload="true">
+        <source src="https://raw.githubusercontent.com/estebanborai/fcc-product-landing-page/master/assets/video/001.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="container">
+        <h2>Music for Everytime</h2>
+        <p>Listen to the songs you love. Anywhere. Anytime</p>
+        <a href="#pricing">
+          <button>Get it now</button>
+        </a>
+      </div>
     </section>
     <section id="about">
       <h2>What is qwerty exactly?</h2>
@@ -47,16 +57,47 @@
       </form>
     </section>
     <section id="pricing">
-      <ol>
-        <li>Free</li>
-        <li>Solo</li>
-        <li>Team</li>
+      <h2>Subscribe today and get 2 months free and 50% off the third month!</h2>
+      <ol id="plans">
+        <li>
+          <div class="illustration" id="free">&nbsp;</div>
+          <ul class="plan-details">
+            <li>0$ monthly</li>
+            <li>Ads every 2 songs</li>
+            <li>Ads before every video</li>
+          </ul>
+          <button class="btn-buy">Sign Up</button>
+        </li>
+        <li>
+          <div class="illustration" id="solo">&nbsp;</div>
+          <ul class="plan-details">
+            <li>10$ monthly</li>
+            <li>No Ads</li>
+            <li>Offline Music</li>
+            <li>Offline Video</li>
+          </ul>
+          <button class="btn-buy">Subscribe</button>
+        </li>
+        <li>
+          <div class="illustration" id="team">&nbsp;</div>
+          <ul class="plan-details">
+            <li>14$ monthly</li>
+            <li>Up to 4 users</li>
+            <li>No Ads</li>
+            <li>Offline Music</li>
+            <li>Offline Video</li>
+          </ul>
+          <button class="btn-buy">Subscribe</button>
+        </li>
       </ol>
     </section>
   </main>
   <footer>
-    Hello from the bottom!
+    Made with &lt;/&gt; by Esteban Borai for the freeCodeCamp Course
   </footer>
-  <script src="bundle/index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="bundle/index.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

@@ -5,6 +5,8 @@
 # fcc-product-landing-page
 🏕 freeCodeCamp's Product Landing Page Project - Part of the "Responsive Web Design Certification"
 
+**NOTE: This project layout is based on Spotify's website layout.**
+
 ### Development
 To run this project locally in your machine, you will need to run the following commands from your terminal/console application.
 ```
@@ -42,6 +44,13 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
 Once you're done, submit the URL to your working project with all its tests passing.
 Remember to use the Read-Search-Ask method if you get stuck.
+
+### Resources
+- Images:
+1. https://unsplash.com/photos/aT2p0zMuqPM
+
+- Video
+1. https://videos.pexels.com/videos/person-playing-a-music-855116
 
 ### The CodePen Project
 [Visit the CodePen Project!](https://codepen.io/eborai/pen/eLpeZG)

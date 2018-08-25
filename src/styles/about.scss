@@ -1,0 +1,39 @@
+#about {
+  background-image: url('https://raw.githubusercontent.com/estebanborai/fcc-product-landing-page/master/assets/img/001.jpg');
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+
+  input {
+    background: #862c2a;
+    color: #ffffff;
+
+    &:focus, &:active, &:hover {
+      background: #bb2927;
+      border-color: #bb2927;  
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  #about {
+    h2, p {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    input {
+      margin: 0.5rem;
+    }
+  }
+}
